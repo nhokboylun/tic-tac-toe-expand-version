@@ -1,0 +1,112 @@
+/*
+CSC4370: Project 3
+Name: Nhon Phu La (900889407)
+*/
+/*
+
+#banner{
+	background: url("bannerbackground.png");
+	height: 50px;
+	width: 100%;
+	background-repeat: repeat-x;
+}
+
+*/
+
+body{
+	height: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+#main {	
+	position:fixed;
+	width:100%;
+	height:100%;
+	align-items:center;
+	background-image: linear-gradient(to right top, #0066ff, #6d60ff, #a453ff, #d43eff, #ff00fd);
+	top: 0;
+	left:0;
+}
+body{
+	height: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+#grid-container{
+	display: grid;
+	grid-template-areas: 
+		"slot00	slot01 slot02 slot03 slot04 slot05 slot06 slot07 slot08 slot09"
+		"slot10	slot11 slot12 slot13 slot14 slot15 slot16 slot17 slot18 slot19"
+		"slot20	slot21 slot22 slot23 slot24 slot25 slot26 slot27 slot28 slot29"
+		"slot30	slot31 slot32 slot33 slot34 slot35 slot36 slot37 slot38 slot39"
+		"slot40	slot41 slot42 slot43 slot44 slot45 slot46 slot47 slot48 slot49"
+		"slot50	slot51 slot52 slot53 slot54 slot55 slot56 slot57 slot58 slot59"
+		"slot60	slot61 slot62 slot63 slot64 slot65 slot66 slot67 slot68 slot69"
+		"slot70	slot71 slot72 slot73 slot74 slot75 slot76 slot77 slot78 slot79"
+		"slot80	slot81 slot82 slot83 slot84 slot85 slot86 slot87 slot88 slot89"
+		"slot90	slot91 slot92 slot93 slot94 slot95 slot96 slot97 slot98 slot99";
+	grid-template-columns: 	50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;	
+	grid-template-rows: 	50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;	
+	width: 500px;
+	height: 500px;
+	border: 4px gray solid;
+	margin: 50px auto;
+	overflow: hidden;
+	background: #FFFFFF;
+}
+.slot{
+	border: 1px gray solid;
+}
+.slotO{
+	border: 1px gray solid;
+	background-image: url("../img/O.png");	
+	
+}
+.slotX{
+	border: 1px gray solid;
+	background-image: url("../img/X.png");
+	
+}
+.button{
+	width: 100%;
+	height: 100%;
+	opacity:0;
+	
+}
+#banner{	
+	height: 70px;
+	width: 100%;	
+	display: flex;
+	align-items:center;
+}
+.player_span{
+	width: 10%;
+	text-align: left;
+	font-weight: bold;
+	color: white;
+	margin-left: 5px;
+}
+.logout_label{
+	width: 10%;
+	text-align: right;
+	font-weight: bold;
+	color: white;
+	margin-right: 15px;
+}
+.title_game{
+	width:80%;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	font-size: 24px;
+}
+.buttonHidden{
+	display: none;
+}
+.Tryagian_label{
+	color: yellow;
+	font-size: 18px;
+}
+
+

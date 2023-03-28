@@ -1,0 +1,3 @@
+CSC4370: Project 2
+
+Link CaroGame: https://codd.cs.gsu.edu/~nla2/WP/PW/CaroGame/caro.php
